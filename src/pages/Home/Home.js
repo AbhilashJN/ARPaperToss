@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import * as styled from './style';
+import * as s from './style';
 
 export default class Home extends Component {
   render() {
     return (
-      <styled.HomePage>
-        <styled.ButtonWrapper>
-          <styled.Button>
-            <styled.Text>Start</styled.Text>
-          </styled.Button>
-          <styled.Button>
-            <styled.Text>High Score</styled.Text>
-          </styled.Button>
-        </styled.ButtonWrapper>
-      </styled.HomePage>
+      <s.HomePage>
+        <s.ButtonContainer>
+          <s.Button>
+            <s.Text>Start</s.Text>
+          </s.Button>
+          <s.Button>
+            <s.Text>High Score</s.Text>
+          </s.Button>
+        </s.ButtonContainer>
+      </s.HomePage>
     );
   }
 }

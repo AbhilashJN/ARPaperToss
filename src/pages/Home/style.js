@@ -3,11 +3,10 @@ import styled from 'styled-components';
 export const HomePage = styled.View`
   background-color: slateblue;
   flex: 1;
-  align-items: center;
   justify-content: center;
 `;
 
-export const ButtonWrapper = styled.View`
+export const ButtonContainer = styled.View`
   height: 15%;
   /* background-color: rebeccapurple; */
   align-items: center;
